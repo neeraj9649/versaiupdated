@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/* space belo navbar */
+.homepage {
+  @apply mt-0; /* Apply margin-top: 0 for the homepage */
+}
+.content {
+  margin-top: 60px; /* Adjust based on navbar height */
+  padding: px; /* Add padding as needed */
+}
+
+.navbar {
+  /* Example styles for the navbar */
+  background-color: #fff; /* Adjust as needed */
+  padding: 1px 2px; /* Adjust padding as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  position: fixed; /* Keep navbar fixed at the top */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it sits above other content */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* here it is Lodu.jsx file css */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #6a11cb, #004dd2, #ff6a00, #ff0000);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-animation 5s ease infinite;
+}
+.gradient-textt {
+  background: linear-gradient(90deg, #a62671, #db466b, #f96c48, #982b1c);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-animation 5s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.service-section {
+  perspective: 1000px;
+}
+
+.s-block {
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease-out;
+}
+
+.s-block:hover {
+  transform: rotateX(5deg) rotateY(5deg) scale(1.05);
+}
