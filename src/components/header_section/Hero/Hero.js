@@ -70,7 +70,7 @@ function Hero() {
           <img
             src={man2}
             alt="web app"
-            className="h-56 z-0 absolute top-5 right-5 rounded-lg opacity-80 hidden xl:block"
+            className="h-48 z-0 absolute top-5  right-0 rounded-lg opacity-80 hidden xl:block"
           ></img>
           <img
             src={man3}
@@ -92,7 +92,7 @@ function Hero() {
             alt="Website development"
             className=" h-32 z-0 sm:h-36 md:h-56 absolute bottom-48 right-5 rounded-lg opacity-90 lg:hidden"
           ></img>
-          <h1 className="text-3xl pt-2 z-10 md:text-5xl text-[#e9e8e4]">
+          <h1 className="text-2xl   z-10 md:text-5xl text-[#e9e8e4]">
             Transform Your{" "}
             <span className="text-[#6beb6b] font-bold">Business</span> <br />{" "}
             with Innovative Technologies!

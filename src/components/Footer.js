@@ -69,9 +69,9 @@ const Footer = () => {
               <div className="flex flex-col text-left mb-2">
                 {" "}
                 {/* Added flex-col for consistent alignment */}
-                <p className="mb-1">Ajitgarh, Jhunjhunu Rajasthan,333701</p>
-                <p className="font-bold">Jaipur</p>
-                <p>Jagalpura,</p>
+                <p className="mb-1">Ajitgarh,</p>
+                <p className="font-bold">Rajasthan</p>
+                <p>Jhunjhunu,</p>
                 <span className="font-bold">Pincode: 303121</span>
               </div>
             </div>

@@ -74,9 +74,9 @@ const ContactPage = () => {
             <div className="bg-white shadow-md rounded-lg p-6 w-full sm:w-3/4 md:w-1/3 fadeInUp">
               <img src={dubaiImage} alt="Jaipur" className="w-full mb-6" />
               <div className="text-center">
-                <h4 className="text-2xl font-bold">Jaipur</h4>
+                <h4 className="text-2xl font-bold">Jhunjhunu</h4>
                 <p className="text-gray-700 mt-2">
-                  <i className="fas fa-map-marker-alt"></i> Sapphire
+                  <i className="fas fa-map-marker-alt"></i> Ajitgarh
                 </p>
                 <a
                   href="javascript:void(0)"
